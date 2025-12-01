@@ -1,0 +1,154 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+
+# Data Files (keep structure, ignore large datasets)
+#data/raw/*.csv
+#data/raw/*.xlsx
+#data/raw/*.xls
+#data/raw/*.json
+data/interim/*.csv
+data/interim/*.pkl
+data/processed/*.csv
+data/processed/*.pkl
+data/processed/*.joblib
+
+# Exception: Keep a small sample or README in data folders
+!data/raw/README.md
+!data/interim/README.md
+!data/processed/README.md
+
+# Models (trained models can be large)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Logs
+*.log
+logs/
+*.out
+
+# Reports (keep templates, ignore generated)
+reports/*.html
+reports/*.pdf
+# Keep markdown templates
+!reports/*.md
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# pytest
+.pytest_cache/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling data
+*.prof
+
+# Backup files
+*.bak
+*.backup
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+*.rar
+
+# Figures (optional - comment out if you want to track figures)
+# reports/figures/*.png
+# reports/figures/*.jpg
+# reports/figures/*.svg
+
+# Jupyter specific
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# Keep important empty directories
+!.gitkeep
