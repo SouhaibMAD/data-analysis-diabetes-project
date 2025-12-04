@@ -1,0 +1,2 @@
+# Forcer les notebooks Jupyter à utiliser LF dans le dépôt
+*.ipynb text eol=lf
